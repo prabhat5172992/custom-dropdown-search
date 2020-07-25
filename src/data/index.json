@@ -1,0 +1,45 @@
+{
+  "dropDownlistObj": {
+    "India": "IN",
+    "United Kingdom": "GB",
+    "United States": "USA",
+    "Germany": "DE",
+    "Australia": "AU",
+    "Argentina": "AR",
+    "Canada": "CA",
+    "Austria": "AT",
+    "Ireland": "IE",
+    "France": "FR",
+    "Italy": "IT",
+    "spain": "ES",
+    "United Arab Emirates": "UAE",
+    "Saudi Arabia": "KSA",
+    "South Africa": "SA",
+    "Japan": "JP",
+    "Russia": "USSR",
+    "North Korea": "NK",
+    "South Korea": "SK"
+  },
+
+  "dropDownlistArr": [
+    "Abhishek Singh",
+    "Uttam Kumar",
+    "Ristesh Tiwary",
+    "Ranvijay Ranjan",
+    "Digvijay Ranjan",
+    "Somesh Pratap",
+    "Bhupendra Singh",
+    "Raman Ojha",
+    "Mirdula Pandit",
+    "Shrishti Pandit",
+    "Pankhi Desai",
+    "Urmila Singh",
+    "Jyoti Jha",
+    "Om Prakash Shukla",
+    "Mahendra Sharma",
+    "Nirbhay Ranjan",
+    "Galfu Dubey",
+    "Diwarkar Mango",
+    "Satish Jalpari"
+  ]
+}

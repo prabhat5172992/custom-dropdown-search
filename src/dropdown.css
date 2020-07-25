@@ -1,0 +1,133 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .dropdown-country,
+  .dropdown-currency,
+  .dropdown-product {
+    width: 100%;
+  }
+  .dropdown {
+    width: 90%;
+  }
+}
+
+.dropbtn {
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 12px 20px;
+  display: block;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: white;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.dropdown-caret {
+  background-image: linear-gradient(45deg, transparent 55%, #96918b 0),
+    linear-gradient(135deg, #96918b 55%, transparent 0);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+}
+
+/* .dropdown-caret {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 14px;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+  margin-right: 2rem;
+  padding: 1rem;
+  padding-right: 2rem;
+} */
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #fff;
+}
+
+.show {
+  display: block !important;
+}
+
+.wrapDropdown {
+  display: block;
+}
+
+.wrapDropdown input[type="text"] {
+  margin-bottom: 5px;
+  display: block;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.search_box_input {
+  background-image: url("https://www.w3schools.com/howto/searchicon.png");
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  width: 100%;
+}
+
+.search_box_input:focus {
+  outline: 3px solid #ddd;
+}
+
+.drop-down-list {
+  overflow: auto;
+  max-height: 320px;
+  border-color: white;
+}
+
+.drop-down-list .ui-widget-content {
+  background-color: white;
+}
+
+.drop-down-list .ui-menu .ui-menu-item {
+  padding: 0px 20px;
+  width: auto;
+  color: black;
+}
+
+.drop-down-list .ui-menu .ui-menu-item:hover,
+.drop-down-list .ui-menu .ui-menu-item:hover button {
+  background-color: #ccc;
+}
+
+.drop-down-list .ui-menu .ui-menu-item .ui-menu-item-wrapper {
+  width: 100%;
+  padding: 8px 20px;
+}
+
+.drop-down-list ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.drop-down-list button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  background: white;
+}
