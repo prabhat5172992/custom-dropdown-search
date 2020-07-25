@@ -15,5 +15,3 @@ value: PropTypes.array,
 dropdownClass: PropTypes.string,
 setSelectField: PropTypes.func,
 ```
-
-### `yarn test`
